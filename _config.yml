@@ -1,0 +1,16 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title: Webdev Hints
+tagline: Webdev Hints
+description: Personal blog about random web development stuff
+url: http://getpoole.com
+paginate: 10
+baseurl: /
+excerpt_separator:   "<!-- more -->"
