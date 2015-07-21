@@ -2,6 +2,7 @@
 layout: post
 title:  "Django admin: how to enable add/edit buttons for many-to-many model relationships"
 date:   2015-07-21 12:14:03
+comments: true
 tags: django-1.8 django-admin django-models
 ---
 It was pretty easy to add an inline for many-to-many model relationship Django admin, like it was mentioned in the [Django documentation](https://docs.djangoproject.com/en/dev/ref/contrib/admin/#working-with-many-to-many-models).
