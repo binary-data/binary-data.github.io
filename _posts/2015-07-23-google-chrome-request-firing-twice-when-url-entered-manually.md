@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Attention: Google Chrome request firing twice when url entered manually"
-date:   2015-07-21 12:14:03
+date:   2015-07-23 12:14:03
 comments: true
 tags: google-chrome browsers
 ---
