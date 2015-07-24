@@ -22,23 +22,23 @@ Start with [downloading](http://jmeter.apache.org/download_jmeter.cgi) and [runn
 
 First of all, we need to set up users. Add a [Thread Group](http://jmeter.apache.org/usermanual/component_reference.html#Thread_Group) from "Threads (Users)" section:
 
-![Thread Group](/images/2015-07/threadgroup.jpg)
+<a href="#" data-featherlight="/images/2015-07/threadgroup.jpg">![Thread Group](/images/2015-07/threadgroup.jpg)</a>
 
 Thread group options depends on how many requests you want to generate. Then add [HTTP Request](http://jmeter.apache.org/usermanual/component_reference.html#HTTP_Request) from "Samplers":
 
-![Thread Group](/images/2015-07/httprequest.jpg)
+<a href="#" data-featherlight="/images/2015-07/httprequest.jpg">![Thread Group](/images/2015-07/httprequest.jpg)</a>
 
 There we are setting up our webservers host (`localhost` in my case) and path. See a `${link}` parameter in Path? I will explain it below.
 
 Then we add a [HTTP Header Manager](http://jmeter.apache.org/usermanual/component_reference.html#HTTP_Header_Manager) from "Config Element":
 
-![Thread Group](/images/2015-07/httpheader.jpg)
+<a href="#" data-featherlight="/images/2015-07/httpheader.jpg">![Thread Group](/images/2015-07/httpheader.jpg)</a>
 
 Here you can add necessary headers. There is another variable `${userAgent}`.
 
 Now we need to populate our variables. JMeter has a tool for that called [CSV Data Set Config](http://jmeter.apache.org/usermanual/component_reference.html#CSV_Data_Set_Config). It takes data from CSV file.
 
-![Thread Group](/images/2015-07/csvlink.jpg)
+<a href="#" data-featherlight="/images/2015-07/csvlink.jpg">![Thread Group](/images/2015-07/csvlink.jpg)</a>
 
 Here we define a filename, variable name that we used before and csv options, such as encoding and delimiter.
 
@@ -46,7 +46,7 @@ Here we define a filename, variable name that we used before and csv options, su
 
 I also needed to use different browser User Agents, so I downloaded CSV list of them [here](http://sql.sh/2290-liste-user-agents) and created another CSV Data Set Config:
 
-![Thread Group](/images/2015-07/csvua.jpg)
+<a  href="#" data-featherlight="/images/2015-07/csvua.jpg">![Thread Group](/images/2015-07/csvua.jpg)</a>
 
 Now our variables in HTTP Request and HTTP Header Manager will be populated with values from CSV file. I also set first row in CSV files to match variable names, but don't know if this even needed.
 
@@ -54,7 +54,7 @@ That's all! Now we can run our test case.
 
 But one more thing: if you want to track requests you need to add listener from "Listener" group (I picked up "View Results in Table"):
 
-![Thread Group](/images/2015-07/listener.jpg)
+<a  href="#" data-featherlight="/images/2015-07/listener.jpg">![Thread Group](/images/2015-07/listener.jpg)</a>
 
 # Alternatives
 
