@@ -13,7 +13,7 @@ relative_permalinks: true
 title: Webdev Hints
 tagline: Webdev Hints
 description: Personal blog about random web development stuff
-url: http://getpoole.com
+url: http://binary-data.github.io
 paginate: 10
 baseurl: /
 excerpt_separator:   "<!-- more -->"
