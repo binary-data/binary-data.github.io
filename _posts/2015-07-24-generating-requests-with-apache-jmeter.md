@@ -6,6 +6,9 @@ comments: true
 tags: jmeter
 ---
 # The problem
+
+> **UPD 31 July 2015: For Django and python I now prefer to use [requests](http://docs.python-requests.org/en/latest/) library and Django management commands. With management commands it is easier to collect data required for generating requests. But I will leave the post here because it can be helpful for someone.**
+
 I develop a web application. One of it's modules collects data from user request (user agent, device etc.) and shows visit statistics. While developing statistic module I needed to generate sample request data.
 
 My requirements was:
