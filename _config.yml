@@ -15,5 +15,5 @@ tagline: Webdev Hints
 description: Personal blog about random web development stuff
 url: http://binary-data.github.io
 paginate: 10
-baseurl: ""
+baseurl: /
 excerpt_separator:   "<!-- more -->"
