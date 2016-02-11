@@ -4,10 +4,10 @@ highlighter:      pygments
 
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title: Webdev Hints
