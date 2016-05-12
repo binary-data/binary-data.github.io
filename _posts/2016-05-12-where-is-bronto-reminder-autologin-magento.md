@@ -10,3 +10,5 @@ There is an service called [Bronto](http://bronto.com/), a marketing platform fo
 You may wonder, where is exactly "auto login" happens. For Magento 1.9 with Bronto 2.4 it is located in `Bronto_Reminder_LoadController::indexAction`. Actual url where Bronto redirects looks like this: `http://site.com/reminder/load/index/message_id/0baa06eb00000000000000000000001b5fa3/id/eDRedi5YZGVbUEk9/?{some_more_params}`
 
 It wasn't obvious for me at first so I decided to share this knowledge here. Hope it helps.
+
+More on reminder emails in [bronto documentation](http://dev.bronto.com/prebuilt-integrations/magento/2-4/configuration/reminder-emails/)
