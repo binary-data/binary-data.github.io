@@ -15,4 +15,4 @@ description: Personal blog about random web development stuff
 url: http://binary-data.github.io
 paginate: 10
 baseurl: ""
-excerpt_separator:   "<!-- more -->"
+excerpt_separator: "<!-- more -->"

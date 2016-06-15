@@ -3,3 +3,8 @@
     text-align: right;
     width: 100%;
 }
+
+pre.highlight {
+    overflow-x: auto;
+    white-space: pre;
+}
