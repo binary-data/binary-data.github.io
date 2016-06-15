@@ -8,7 +8,7 @@ tags: docker phpunit php mysql
 ## What are we trying to make?
 Make PHPStorm run PHPUnit integration tests that use MySQL database using Docker.
 
-If you need only to run unit tests with PHPUnit, without using database or Redis or something else, you can try this: [http://obrown.io/2015/12/23/phpunit-docker-phpstorm.html](http://obrown.io/2015/12/23/phpunit-docker-phpstorm.html)
+If you only need to run unit tests with PHPUnit, without using database or Redis or something else, you can try this: [http://obrown.io/2015/12/23/phpunit-docker-phpstorm.html](http://obrown.io/2015/12/23/phpunit-docker-phpstorm.html)
 
 ## How we could get this done?
 By using Docker Compose to tie up containers.
