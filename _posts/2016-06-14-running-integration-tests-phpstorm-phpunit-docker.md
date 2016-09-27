@@ -29,7 +29,7 @@ services:
   phpunit:
     image: binarydata/phpunit # our PHPUnit image, created or found on Docker Hub
     volumes:
-      - /home/anton/work/project/src/:/home/anton/work/project/src/ # folder where project resides
+      - /home/user/work/project/src/:/home/user/work/project/src/ # folder where project resides
       - /tmp/:/tmp/ # linking /tmp/ folder because PHPStorm stores its stuff there
     depends_on:
       - db
