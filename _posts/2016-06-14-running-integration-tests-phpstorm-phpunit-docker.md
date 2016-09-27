@@ -29,7 +29,7 @@ services:
   phpunit:
     image: binarydata/phpunit # our PHPUnit image, created or found on Docker Hub
     volumes:
-      - /home/user/work/project/src/:/home/user/work/project/src/ # folder where project resides
+      - /home/user/work/project/src/:/home/user/work/project/src/ # folder where project resides. Should have same path
       - /tmp/:/tmp/ # linking /tmp/ folder because PHPStorm stores its stuff there
     depends_on:
       - db
@@ -53,6 +53,12 @@ cd `dirname $0` && docker-compose run --rm phpunit php "$@"
 ```
 
 `cd dirname $0` part changes working directory to where `docker-compose.yml` is located, so `docker-compose run` could see it. Then it runs php inside `phpunit` container, with all linked containers started by Docker Compose.
+
+Make script executable:
+
+```bash
+chmod +x /path/to/docker.sh
+```
 
 ### Step 4:
 Set up PHP interpreter in PHPStorm. Go to "Settings -> Languages & Frameworks -> PHP":
