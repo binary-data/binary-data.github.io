@@ -4,7 +4,7 @@
     width: 100%;
 }
 
-pre.highlight {
+.highlight pre {
     overflow-x: auto;
     white-space: pre;
 }
