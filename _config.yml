@@ -1,18 +1,19 @@
 # Dependencies
-highlighter:      rouge
+highlighter: rouge
 
 gems:
   - jekyll-sitemap
   - jekyll-paginate
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 # Setup
 title: Webdev Hints
 tagline: Webdev Hints
 description: Personal blog about random web development stuff
-url: http://binary-data.github.io
+url: https://binary-data.github.io
 paginate: 10
 baseurl: ""
 excerpt_separator: "<!-- more -->"
+plugins: [jekyll-paginate]
