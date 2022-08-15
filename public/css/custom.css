@@ -8,3 +8,18 @@
     overflow-x: auto;
     white-space: pre;
 }
+
+.alert {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.alert p {
+    margin: 0;
+}
+
+.alert-warning {
+    background-color: #fdf1af;
+    color: #664d03;
+    font-size: 0.8em;
+}
